@@ -1,0 +1,18 @@
+/*
+ * CH-230-A
+ * a10_p1.txt
+ * Aidyn Ardabek
+ * aardabek@jacobs-university.de
+*/
+1. Error: "unknown type name 'string'; did you mean 'std::string'?"
+Or "use of undeclared identifier 'cout'; did you mean 'std::cout'?"
+
+Since we use undeclared identifier count, string, endl, cin, the project will not compile.
+
+Using "std::cout", "std::cin", "std::endl", "std::string" would solve the error.
+
+2. Error: "use of undeclared identifier 'name'"
+
+Since we don't write the class to which the method belongs to, for the compiler these identifiers are unknown. In this case, the class is Critter. 
+
+Declaring the methods independent from the class would solve the error.
